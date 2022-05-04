@@ -1,14 +1,15 @@
-import { render } from 'react-dom';
-import SearchParams from './SearchParams';
-
-
+import { render } from "react-dom";
+import { StrictMode } from "react";
+import SearchParams from "./SearchParams";
 
 const App = () => {
-  return(
-    <div>
-      <h1>Adopt Me!</h1>
-      <SearchParams />
-    </div>
+  return (
+    <StrictMode>
+      <div>
+        <h1>Adopt Me!</h1>
+        <SearchParams />
+      </div>
+    </StrictMode>
   );
 };
 
