@@ -12,8 +12,4 @@ const App = () => {
   );
 };
 
-
-{/* <Pet name="Calci" animal="Cat" breed="Surprise"></Pet>
-      <Pet name="Ceniza" animal="Cat" breed="Surprise"></Pet>
-      <Pet name="Luna" animal="Dog" breed="Havanese"></Pet> */}
 render(<App />, document.getElementById("root"));
